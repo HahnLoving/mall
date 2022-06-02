@@ -1,0 +1,15 @@
+
+<view class="container">
+    <image data-tname="t-5" bind:tap="onGotToTheme" class="title" src="{{banner.img}}"></image>
+    <view class="inner-container">
+        <view hover-class="rect-hover" hover-stay-time="300">
+            <image data-item="{{left}}"  bind:tap="onGotoDetail" class="left" src="{{left.img}}"></image>
+        </view>
+        <view class="right-container">
+            <image data-item="{{rightTop}}"
+                       bind:tap="onGotoDetail" class="right-size" src="{{rightTop.img}}"></image>
+            <image data-item="{{rightBottom}}"
+                       bind:tap="onGotoDetail" class="right-size" src="{{rightBottom.img}}"></image>
+        </view>
+    </view>
+</view>

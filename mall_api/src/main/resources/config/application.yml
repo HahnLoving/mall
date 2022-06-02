@@ -1,0 +1,29 @@
+spring:
+  profiles:
+    active: dev # 设置启动环境
+  #  jpa:
+  #    hibernate:
+  #      ddl-auto: create-drop # 模型转数据表
+  jackson:
+    property-naming-strategy: SNAKE_CASE # 字段的格式
+    serialization:
+      WRITE_DATES_AS_TIMESTAMPS: true # 时间格式变成时间戳
+
+#  mvc:
+#    throw-exception-if-no-handler-found: true # 出现错误时, 直接抛出异常
+#  resources:
+#    add-mappings: false # 关闭工程中的资源文件建立映射
+
+
+wx:
+  appid: wx70247c5666312d10
+  appsecret: 9c1809e2f0a0c186307be713ba611ded
+  code2Session: https://api.weixin.qq.com/sns/jscode2session?appid={0}&secret={1}&js_code={2}&grant_type=authorization_code
+
+apache:
+  rocketmq:
+    consumer:
+      pushConsumer: PushConsumer # 消费者的组名
+    producer:
+      producerGroup: ProducerGroup # 生产者的组名
+    namesrvAddr: localhost:9876 # NameServer地址

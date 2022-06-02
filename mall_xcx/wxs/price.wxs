@@ -1,0 +1,35 @@
+
+
+function mainPrice(price, ratePrice) {
+    if(!ratePrice){
+        return {
+            price:price,
+            display:true
+        }
+    }
+    else{
+        return {
+            display:true,
+            price:ratePrice,
+        }
+    }
+}
+
+function slashedPrice(price, ratePrice) {
+    if(ratePrice){
+        return {
+            display:true,
+            price:price
+        }
+    }else{
+        return {
+            display:false,
+            price:null
+        }
+    }
+}
+
+module.exports = {
+    mainPrice:mainPrice,
+    slashedPrice:slashedPrice
+}
