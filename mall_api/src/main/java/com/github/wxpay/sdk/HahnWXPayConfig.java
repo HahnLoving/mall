@@ -13,8 +13,8 @@ public class HahnWXPayConfig extends WXPayConfig {
     public HahnWXPayConfig() {
         try {
             String c = System.getProperty("user.dir");
-            String certPath = c + "/src/main/resources/static/apiclient_cert.p12";
-//            String certPath = "/Users/hanzhili/Desktop/风袖项目/1592067141_20200510_cert/apiclient_cert.p12";
+//            String certPath = c + "/src/main/resources/static/apiclient_cert.p12";
+            String certPath = "/etc/nginx/html/apiclient_cert.p12";
             File file = new File(certPath);
 
 //            ClassPathResource resource = new ClassPathResource("template" + File.separator + "apiclient_cert.p12");

@@ -1,0 +1,1 @@
+"use strict";(self["webpackChunklin_cms_vue"]=self["webpackChunklin_cms_vue"]||[]).push([[6353],{36353:function(e){e.exports=JSON.parse('{"name":"lc-plugin-charts","title":"数据分析","version":"0.0.1","_linVersion":"0.0.1-alpha.3","description":"图表数据分析","author":"Jokky","dependencies":{"@antv/g2plot":"^0.11.35"},"devDependencies":{}}')}}]);

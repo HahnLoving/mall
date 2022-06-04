@@ -1,6 +1,6 @@
 spring:
   profiles:
-    active: dev # 设置启动环境
+    active: prod # 设置启动环境
   #  jpa:
   #    hibernate:
   #      ddl-auto: create-drop # 模型转数据表

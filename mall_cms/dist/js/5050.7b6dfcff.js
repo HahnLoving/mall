@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunklin_cms_vue"]=self["webpackChunklin_cms_vue"]||[]).push([[5050],{65050:function(e,n,u){u.r(n);var l={route:null,name:null,title:"个人",type:"view",icon:"iconfont icon-tushuguanli",filePath:"view/center/",order:null,inNav:!1};n["default"]=l}}]);
+//# sourceMappingURL=5050.7b6dfcff.js.map
