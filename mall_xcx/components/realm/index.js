@@ -88,7 +88,7 @@ Component({
         },
 
         bindSkuData(sku) {
-            console.log(sku)
+            // console.log(sku)
             this.setData({
                 previewImg: sku.img,
                 title: sku.title,
@@ -108,6 +108,7 @@ Component({
         },
 
         bindFenceGroupData(fenceGroup) {
+          console.log("zzr123 = ",fenceGroup.fences.cells)
             this.setData({
                 fences: fenceGroup.fences,
             })
@@ -125,7 +126,7 @@ Component({
 
         noSpec() {
             const spu = this.properties.spu
-            console.log(spu)
+            // console.log(spu)
             return Spu.isNoSpec(spu)
         },
 
@@ -154,7 +155,7 @@ Component({
 
             const judger = this.data.judger
             judger.judge(cell, x, y)
-            console.log(cell,x,y)
+            // console.log(cell,x,y)
             const skuIntact = judger.isSkuIntact()
             if (skuIntact) {
                 const currentSku = judger.getDeterminateSku()

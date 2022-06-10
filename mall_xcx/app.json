@@ -73,6 +73,7 @@
     "l-search-bar": "/miniprogram_npm/lin-ui/search-bar/index",
     "l-status-show": "/miniprogram_npm/lin-ui/status-show/index",
     "l-tag": "/miniprogram_npm/lin-ui/tag/index",
+    "s-fence ": "/components/fence/index",
     "s-checkbox": "/components/checkbox/index",
     "l-loadmore": "/miniprogram_npm/lin-ui/loadmore/index",
     "l-countdown": "/miniprogram_npm/lin-ui/countdown/index",
